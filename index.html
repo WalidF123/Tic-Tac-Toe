@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="image-container">
+            <img src="./ASSETS/logoMario.jpeg" alt="">
+        </div>
+    </header>
+
+    <main>
+        <section class="screen" id="start">
+            <section class="playerOneStart">
+                <h2>LUIGI</h2>
+                <img src="./ASSETS/Luigi-portrait.jpeg" alt="">
+            </section>
+
+            <section class="vs">
+                <img src="./ASSETS/VS.png" alt="">
+                <button id="start-btn">START GAME</button>
+                <button id="music-btn">MUSIC ON/OFF</button>
+            </section>
+            
+            <section class="playerTwoStart">
+                <h2>BOWSER</h2>
+                <img src="./ASSETS/BowserPortrait.jpeg" alt="">
+            </section>
+        </section>
+        <section class="screen" id="gameContent">
+            <section class="playerOneInfo">
+                <div class="playerOneName"><h2>LUIGI</h2></div> 
+                <div class="playerOneImg"><img class="playerOnePic" src="./ASSETS/Luigi-portrait.jpeg" alt=""></div>
+                <div class="score"><h2>WINS<span class="p1Score">0</span></h2></div>
+                <div class="p1Fight"></div>
+            </section>
+        
+            <section class="gameBoxes">
+                <div id ="grid" class="grid">
+                    <div class="gridOne"></div>
+                    <div class="gridTwo"></div>
+                    <div class="gridThree"></div>
+                    <div class="gridFour"></div>
+                    <div class="gridFive"></div>
+                    <div class="gridSix"></div>
+                    <div class="gridSeven"></div>
+                    <div class="gridEight"></div>
+                    <div class="gridNine"></div>
+                </div>
+                <div class="fatal"><img src="./ASSETS/Fatality.png" alt=""></div>
+                <div class="tie"><h1>TIE</h1></div>
+            </section>
+
+            <section class="playerTwoInfo">
+                <div class="playerTwoName"><h2>BOWSER</h2></div>
+                <div class="playerTwoImg"><img class="playerTwoPic" src="./ASSETS/BowserPortrait.jpeg" alt=""></div>
+                <div class="score"><h2>WINS<span class="p2Score">0</span></h2></div>
+                <div class="p2Fight"></div>
+            </section>
+        </section>
+        <section class="screen" id="winner">
+            <div class="results">
+                <h1>GAME OVER</h1>
+                <h2>The Winner is: </h2>
+                <div class="winnerName"></div>
+                <div class="winnerPic"></div>
+                <div class="finalScore"><h1>Luigi: <span class="p1finalScore"></span><br>Bowser: <span class="p2finalScore"></span></h1></div>
+                <button id="playAgain-btn">Play Again?</button>
+            </div>
+        </section>
+        <div class="music">
+            <audio autoplay loop src="./ASSETS/MK Song.mp3"></audio>
+        </div>
+    </main>
+
+    <footer>
+        <strong>Created by Walid Feki</strong>
+    </footer>
+<script src="main.js"></script>
+</body>
+</html>
