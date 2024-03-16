@@ -46,3 +46,194 @@ header {
     max-width: fit-content;
     position: absolute;
 }
+
+.grid div{
+    height: 126px;
+    width: 126px;
+    background-color: rgb(128, 128, 128, 0.2);
+    border: 3px solid rgb(160, 61, 0);
+}
+
+.playerOneMove, .playerTwoMove {
+    max-height: 120px;
+    max-width: 120px;
+    align-items: center;
+}
+
+.playerOneInfo, .playerTwoInfo {
+    border-radius: 25px;
+    margin: 50px 0 80px;
+    border: 2px solid rgb(160, 61, 0);
+    background-color: rgb(128, 128, 128, 0.6);
+}
+
+.playerOneName, .playerTwoName {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 5px;
+    font-size: 2em;
+}
+
+.playerOnePic, .playerTwoPic {
+    max-width: 150px;
+    width: 100%;
+    border-radius: 25px;
+    margin: 0 20px;
+}
+
+.score {
+    margin: 15px 10px 0;
+    font-size: 40px;
+}
+
+.p1Score, .p2Score {
+    float: right;
+}
+
+.playerOneImg, .playerTwoImg {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.p1Fight, .p2Fight {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 56px;
+    color: rgb(189, 0, 0);
+    margin: 30px 0 15px;
+    animation: blinker 2s infinite
+}
+    @keyframes blinker {
+        60% {
+        opacity: 0;
+        }
+    }
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0 10px;
+}
+
+footer strong {
+    border-radius: 25px;
+    border: 2px solid rgb(160, 61, 0);
+    background-color: rgb(128, 128, 128, 0.6);
+    padding: 20px;
+}
+
+
+#start {
+    display: grid;
+    grid-template-columns: 5fr 2fr 5fr;
+    justify-content: space-evenly;
+    margin-bottom: auto;
+    grid-gap: 50px;
+}
+
+.playerOneStart img, .playerTwoStart img, .vs img {
+    max-width: 350px;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.playerOneStart, .playerTwoStart, .vs {
+    margin: auto;
+    text-align: center;
+}
+
+.playerOneStart, .playerTwoStart {
+    border: 2px solid rgb(160, 61, 0);
+    background-color: rgb(128, 128, 128, 0.5);
+    border-radius: 25px;
+}
+
+.playerOneName h2, .playerTwoName h2 {
+    font-size: 50px;
+}
+
+.playerOneStart h2, .playerTwoStart h2 {
+    font-size: 4em;
+}
+
+#start-btn {
+    margin-top: 50px;
+    width: 100%;
+    max-width: 400px;
+    height: 60px;
+    font-size: x-large; 
+    background-color: rgb(160, 61, 0);
+    color: rgb(255, 177, 31);
+}
+
+#music-btn {
+    margin-top: 20px;
+    max-width: 120px;
+    height: 100%;
+    font-size: large; 
+    background-color: rgb(160, 61, 0);
+    color: rgb(255, 177, 31);
+}
+
+.fatal img{
+    width: 900px;
+    display: flex;
+    position: relative;
+}
+
+.tie {
+    min-width: 500px;
+    min-height: 200px;
+    display: flex;
+    position: relative;
+    border: 2px solid rgb(160, 0, 0);
+    background-color: rgb(128, 128, 128, 0.90);
+    border-radius: 25px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.tie h1{
+    width:300px;
+    text-align: center;
+    margin: auto;
+    font-size: 100px;
+}
+
+.gameBoxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#winner {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid rgb(160, 61, 0);
+    background-color: rgb(128, 128, 128, 0.80);
+    border-radius: 25px;
+    margin: 0 auto;
+    width: 30%;
+}
+
+.winnerPic img {
+    max-width: 200px;
+    width: 100%;
+    border-radius: 25px;
+    margin: 25px 0;
+}
+
+.results {
+    margin: 20px auto;
+}
+
+.results button {
+  margin: 10px;
+  width: 220px; 
+  font-size: x-large; 
+  background-color: rgb(160, 61, 0);
+  color: rgb(255, 177, 31);
+}
