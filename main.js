@@ -160,8 +160,8 @@ function playerIcon(event){
         } else if (playerOneWin === true && Number(playerOneScore.textContent) === 2) {
             playerOneScore.textContent = Number(playerOneScore.textContent) + Number(1);
             fatalityPopup.style.display = "";
-            winner.innerHTML = '<h1>SUB-ZERO</h1>';
-            winnerPic.innerHTML = '<img src="./ASSETS/Sub-Zero-Portrait.jpeg" alt="">';
+            winner.innerHTML = '<h1>LUIGI</h1>';
+            winnerPic.innerHTML = '<img src="./ASSETS/Luigi-portrait.jpeg" alt="">';
             p1finalScore.textContent = playerOneScore.textContent;
             p2finalScore.textContent = playerTwoScore.textContent;
             setTimeout(function () {
@@ -191,8 +191,8 @@ function playerIcon(event){
         } else if (playerTwoWin === true && Number(playerTwoScore.textContent) === 2) {
             playerTwoScore.textContent = Number(playerTwoScore.textContent) + Number(1);
             fatalityPopup.style.display = "";
-            winner.innerHTML = '<h1>SCORPION</h1>';
-            winnerPic.innerHTML = '<img src="./ASSETS/Scorpion Portrait.jpeg" alt="">';
+            winner.innerHTML = '<h1>BOWSER</h1>';
+            winnerPic.innerHTML = '<img src="./ASSETS/BowserPortrait.jpeg" alt="">';
             p1finalScore.textContent = playerOneScore.textContent;
             p2finalScore.textContent = playerTwoScore.textContent;
             setTimeout(function () {
@@ -257,7 +257,7 @@ function checkP2Win() {
     } else if (g2.innerHTML === '<img class="playerTwoMove" src="./ASSETS/Bowser-attack.jpeg" alt="">' && g5.innerHTML === '<img class="playerTwoMove" src="./ASSETS/Bowser-attack.jpeg" alt="">' && g8.innerHTML === '<img class="playerTwoMove" src="./ASSETS/Bowser-attack.jpeg" alt="">') {
         playerTwoWin = true;
     } else if (g3.innerHTML === '<img class="playerTwoMove" src="./ASSETS/Bowser-attack.jpeg" alt="">' && g5.innerHTML === '<img class="playerTwoMove" src="./ASSETS/Bowser-attack.jpeg" alt="">' && g7.innerHTML === '<img class="playerTwoMove" src="./ASSETS/Bowser-attack.jpeg" alt="">') {
-        playerTwoWin = true;
+        playerTwoWin = true;ƒgam
     } else if (g3.innerHTML === '<img class="playerTwoMove" src="./ASSETS/Bowser-attack.jpeg" alt="">' && g6.innerHTML === '<img class="playerTwoMove" src="./ASSETS/Bowser-attack.jpeg" alt="">' && g9.innerHTML === '<img class="playerTwoMove" src="./ASSETS/Bowser-attack.jpeg" alt="">') {
         playerTwoWin = true;
     } else if (g4.innerHTML === '<img class="playerTwoMove" src="./ASSETS/Bowser-attack.jpeg" alt="">' && g5.innerHTML === '<img class="playerTwoMove" src="./ASSETS/Bowser-attack.jpeg" alt="">' && g6.innerHTML === '<img class="playerTwoMove" src="./ASSETS/Bowser-attack.jpeg" alt="">') {

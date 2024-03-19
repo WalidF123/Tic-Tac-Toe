@@ -10,7 +10,7 @@
 
 body {
     margin: 0;
-    background: url(./ASSETS/BACKGROUND.jpeg);
+    background: url(./ASSETS/Mortal\ Kombat\ Scene.png);
     background-color: rgb(85, 63, 55);
     font-family: 'mkda';
     min-height: 100%;
@@ -55,10 +55,21 @@ header {
     border: 3px solid rgb(160, 61, 0);
 }
 
-.playerOneMove, .playerTwoMove {
-    max-height: 160px;
+.playerOneMove {
+    height: 120px;
+    width: 120px;
+    align-items: center;
+}
+.playerTwoMove {
+    height: 120px;
     max-width: 120px;
     align-items: center;
+    overflow: hidden; /* Hide any content that overflows */
+}
+
+.playerTwoMove img {
+    width: 100%; /* Ensure the image fills the container */
+    height: 100%;
 }
 
 .playerOneInfo, .playerTwoInfo {
@@ -265,4 +276,19 @@ footer strong {
     width: 100%;
     height: auto; /* This will maintain aspect ratio */
     display: block; /* Remove any extra space below the image */
+}
+
+
+.quote-container {
+    text-align: center;
+    margin: 50px auto;
+}
+
+/* Style for the quote */
+.quote {
+    font-family: "Comic Sans MS", cursive, sans-serif; /* Use a generic cool font */
+    font-size: 20px;
+    color: #000; /* Black text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a text shadow for emphasis */
+    /* Add any additional styles you desire */
 }
