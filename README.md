@@ -2,8 +2,8 @@
 Super Mario themed tic-tac-toe
 # Tic Tac Toe
 
-- Mortal Kombat theme on the classic TicTacToe game.
-- game: https://zuh3r.github.io/tic-tac-toe/
+- Super Mario theme on the classic TicTacToe game.
+- game: https://WalidF123.github.io/Tic-tac-toe/
 
 ## Approach to problem (planning)
 
