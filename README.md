@@ -1,9 +1,9 @@
 # Tic-tac-toe
-Super Mario/Mortal kombat themed tic-tac-toe
+Super Mario themed tic-tac-toe
 # Tic Tac Toe
 
 - Mortal Kombat theme on the classic TicTacToe game.
-- game: https://github.com/WalidF123/Tic-tac-toe
+- game: https://zuh3r.github.io/tic-tac-toe/
 
 ## Approach to problem (planning)
 
@@ -28,7 +28,6 @@ Super Mario/Mortal kombat themed tic-tac-toe
 
 - Add more characters and allow players to select a character.
 - Add a single player option where player v computer.
-- 'Fatality' audio when a winner is declared.
 - A character animation when winning best of 5.
 - Option to change from best of 5 to best of 3/7/10.
 - Option increase grid size from 3x3 to 4x4, 5x5.
