@@ -3,7 +3,7 @@ Super Mario themed tic-tac-toe
 # Tic Tac Toe
 
 - Super Mario theme on the classic TicTacToe game.
-- game: <a href = "https://github.com/WalidF123/Tic-tac-toe.git">Click here to play</a>
+- game: <a href = "https://walidf123.github.io/Tic-Tac-Toe/">Click here to play</a>
 
 ## Approach to problem (planning)
 
